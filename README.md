@@ -8,5 +8,4 @@ Room DAO
 ------------------
 Picasso
 ------------------
-![Alt Text](https://gfycat.com/rapiduntriedbrahmanbull)
 
