@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragments"
+    app:startDestination="@id/menuItems">
+
+    <fragment
+        android:id="@+id/menuItems"
+        android:name="hr.algebra.cryptonews.fragment.ItemsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_items" />
+
+    <fragment
+        android:id="@+id/menuAbout"
+        android:name="hr.algebra.cryptonews.fragment.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/menuAlgebra"
+        android:name="hr.algebra.cryptonews.fragment.AlgebraFragment"
+        android:label="@string/algebra"
+        tools:layout="@layout/fragment_algebra" />
+
+
+    <fragment
+        android:id="@+id/menuChat"
+        android:name="hr.algebra.cryptonews.fragment.ChatFragment"
+        android:label="@string/chat"
+        tools:layout="@layout/fragment_chat" />
+
+</navigation>

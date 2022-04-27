@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".fragment.ChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chatInfoHeight"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tvSize"
+            tools:text="User" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="@dimen/signInWidth"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/sign_out_button"
+            android:layout_width="@dimen/ivLogoutWidth"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/ivLogoutMargin"
+            android:src="@drawable/ic_logout" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/footer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background_chat"
+            android:clipToPadding="false"
+            android:padding="@dimen/rvChatPadding" />
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/chatFooterPadding"
+            android:weightSum="100">
+
+            <EditText
+                android:id="@+id/messageBox"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/messageBoxHeight"
+                android:layout_marginBottom="@dimen/messageBoxMarginBottom"
+                android:layout_weight="90"
+                android:background="@drawable/background_chatbox"
+                android:hint="@string/hint_message"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="@dimen/messageBoxPaddingStart"
+                android:paddingEnd="@dimen/messageBoxPaddingEnd"
+                android:textColor="@color/black"
+                android:textColorHint="@color/dark_grey" />
+
+            <ImageView
+                android:id="@+id/sendButton"
+                android:layout_width="@dimen/sendBtnWidth"
+                android:layout_height="@dimen/sendBtnWidth"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="@dimen/sendBtnMarginBottom"
+                android:layout_weight="10"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_send" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

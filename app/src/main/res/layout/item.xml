@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/black"
+    app:cardCornerRadius="@dimen/cornerRadius"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/cardItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:padding="@dimen/paddingItem">
+
+        <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="@dimen/ivWidth"
+            android:layout_height="@dimen/ivHeight"
+            tools:src="@drawable/bitcoin" />
+
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ivHeight"
+            android:layout_marginStart="@dimen/marginLeftItems"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            tools:text="title here" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

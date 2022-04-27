@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Crypto News</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_internet">No internet</string>
+    <string name="about">About</string>
+    <string name="about_me">About me</string>
+    <string name="exit">Exit</string>
+    <string name="news">News</string>
+    <string name="favorite">Favorite</string>
+    <string name="delete">Delete</string>
+    <string name="sure">Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="provider">Provider</string>
+    <string name="ok">OK</string>
+    <string name="where_we_at">Where we at?</string>
+    <string name="call">Call</string>
+    <string name="mail">Mail</string>
+    <string name="web">Web</string>
+    <string name="sime">Šime</string>
+    <string name="algebra">Algebra</string>
+    <string name="algebraFullName">Algebra University College</string>
+    <string name="github">GitHub</string>
+    <string name="discord">Discord</string>
+    <string name="chat">Chat</string>
+    <string name="log_out">Log out</string>
+    <string name="send">Send</string>
+    <string name="hint_message">Start typing…</string>
+    <string name="algebraURL">https://www.algebra.hr/visoko-uciliste/</string>
+    <string name="algebraMail">info@racunarstvo.hr</string>
+    <string name="algebraCoordinates">45.81024637591343,15.941107934606487</string>
+    <string name="algebraPhone">012332861</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="authorMail">scavala@racunarstvo.hr</string>
+    <string name="githubURL">https://github.com/scavala?tab=repositories</string>
+    <string name="linkedinURL">https://hr.linkedin.com/in/%C5%A1ime-%C4%8Davala-b285b4235</string>
+    <string name="discordHandle">test#0000</string>
+</resources>
