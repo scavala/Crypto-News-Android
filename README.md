@@ -1,10 +1,10 @@
 # Crypto-News-Android
 ------------------
-Firebase authentication
+Firebase Authentication
 ------------------
 Firebase Realtime Database
 ------------------
-Room DAO
+Room DAO/SQLite
 ------------------
 Picasso
 ------------------
