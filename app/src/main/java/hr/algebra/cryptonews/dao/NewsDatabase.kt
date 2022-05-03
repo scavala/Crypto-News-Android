@@ -8,7 +8,7 @@ import hr.algebra.cryptonews.model.Item
 
 @Database(entities = [Item::class], version = 1)
 abstract class NewsDatabase : RoomDatabase() {
-    abstract fun personDao(): NewsDao
+    abstract fun newsDao(): NewsDao
 
     companion object {
         @Volatile
