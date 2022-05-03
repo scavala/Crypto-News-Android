@@ -10,7 +10,7 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        newsDao = NewsDatabase.getInstance(this).personDao()
+        newsDao = NewsDatabase.getInstance(this).newsDao()
     }
 
     fun getNewsDao() = newsDao
